@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tinh_tong3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tinh_tong3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="nhap" HorizontalAlignment="Left" Margin="31,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.401,1.618" FontSize="22"/>
+        <TextBox x:Name="txtnhap" HorizontalAlignment="Left" Height="39" Margin="388,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" FontSize="22"/>
+        <RadioButton x:Name="Total" Content="Tong" HorizontalAlignment="Left" Margin="31,113,0,0" VerticalAlignment="Top" FontSize="22" Checked="Total_Checked"/>
+        <RadioButton x:Name="Total_even" Content="Tong chan" HorizontalAlignment="Left" Margin="31,146,0,0" VerticalAlignment="Top" FontSize="22" Checked="Total_even_Checked"/>
+        <RadioButton x:Name="odd_sum" Content="Tong le" HorizontalAlignment="Left" Margin="31,179,0,0" VerticalAlignment="Top" FontSize="22" Checked="Odd_sum_Checked"/>
+        <Button x:Name="Quit" Content="Huy" HorizontalAlignment="Left" Margin="551,267,0,0" VerticalAlignment="Top" Width="75" FontSize="22" Click="Quit_Click"/>
+        <Button x:Name="Count" Content="Tinh" HorizontalAlignment="Left" Margin="171,267,0,0" VerticalAlignment="Top" Width="75" FontSize="22" Click="Count_Click"/>
+        <TextBox x:Name="txbTong" HorizontalAlignment="Left" Height="28" Margin="388,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" FontSize="22"/>
+        <TextBox x:Name="txbTongchan" HorizontalAlignment="Left" Height="28" Margin="388,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" FontSize="22"/>
+        <TextBox x:Name="txbTongle" HorizontalAlignment="Left" Height="28" Margin="388,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" FontSize="22"/>
+
+    </Grid>
+</Window>
